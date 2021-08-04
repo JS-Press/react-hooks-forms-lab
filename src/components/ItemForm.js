@@ -11,7 +11,7 @@ function ItemForm({handleItemSubmit, itemCategoryInput, itemNameInput, handleNam
 
       <label>
         Category:
-        <select name="category" value = {itemCategoryInput} onChange = {handleCategoryInputChange} >
+        <select name="category" onChange = {handleCategoryInputChange} value = {itemCategoryInput} >
           <option value="Produce">Produce</option>
           <option value="Dairy">Dairy</option>
           <option value="Dessert">Dessert</option>
